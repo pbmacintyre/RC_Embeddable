@@ -41,3 +41,12 @@ function echo_plain_text($text, $color="black", $font_size="large", $lines=0) {
 		}
 	}
 }
+function page_header($errors = 0) {
+	if ($errors == 1) { show_errors(); }
+	echo "<!DOCTYPE html><html class='SiteWide'><head >";
+	echo "<title >Embeddable Deep Dive App</title>";
+	echo "<link rel='stylesheet' href='css/ringcentral-custom.css'></head>";
+}
+function page_footer() {
+	echo "</html>";
+}

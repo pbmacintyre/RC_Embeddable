@@ -20,11 +20,14 @@ $server_URL .= "&disableGlip=false";
 //$server_URL .= "&disableGlip=false&enableSMSTemplate=1";
 //  $server_URL .= "&disableGlip=false&disableCall=true&disableMessages=true";
 
-$iFrame_string = "<iframe id='rc-widget' allow='microphone' ";
-$iFrame_string .= "width='$ringcentral_embed_width' ";
-$iFrame_string .= "height='$ringcentral_embed_height' ";
-$iFrame_string .= "src='$server_URL'";
-$iFrame_string .= " ></iframe>";
+$iframe_string = "<iframe id='rc-widget' allow='microphone' ";
+$iframe_string .= "width='$ringcentral_embed_width' ";
+$iframe_string .= "height='$ringcentral_embed_height' ";
+$iframe_string .= "src='$server_URL'";
+$iframe_string .= " ></iframe>";
 
-echo "<br/>" . $iFrame_string ;
+page_header(); ?>
+<img src="images/rc-logo.png"/>
+<?php echo "<br/>" . $iframe_string ;
+page_footer();
 
