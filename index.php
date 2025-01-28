@@ -27,7 +27,7 @@ $iframe_string .= "src='$server_URL'";
 $iframe_string .= " ></iframe>";
 
 page_header(); ?>
-<img src="images/rc-logo.png"/>
+<!--<img src="images/rc-logo.png"/>-->
 <?php echo "<br/>" . $iframe_string ;
 page_footer();
 
