@@ -32,7 +32,6 @@ $server_URL .= "clientId=$client_id&appServer=https://platform.ringcentral.com" 
 // Turn off the Video meetings feature
 //$server_URL .= "&disableMeeting=true";
 
-
 $iframe_width	= "500" ;
 $iframe_height	= "750" ;
 
