@@ -43,7 +43,7 @@ $iframe_string .= "src='$server_URL'";
 $iframe_string .= " ></iframe>";
  ?>
 
-<!DOCTYPE html><html class='SiteWide'><head >
+<!DOCTYPE html><html class='SiteWide' ><head >
 <title >Embeddable Deep Dive App</title>
 <link rel='stylesheet' href='css/ringcentral-custom.css'></head>
 
